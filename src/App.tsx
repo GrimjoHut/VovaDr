@@ -13,7 +13,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <body>
+    <>
       <BackgroundMusic src="./src/Kevin Levrone Muah _ edit (128kbps).mp3" />
       <section>
         <div className='video-bg'>
@@ -30,7 +30,7 @@ const App: React.FC = () => {
       <footer id='footer'>
         <ControlledCarousel />
       </footer>
-    </body>
+    </>
   );
 }
 
